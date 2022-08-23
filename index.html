@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Unique
+        Five.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/berkshireswash-regular.ttf">
+</head>
+
+<body style="background-color: #151515;">
+
+    <main>
+        <!-- Banner section  -->
+        <section>
+            <div class="bg-black text-center items-end justify-between flex">
+                <div class="banner">
+                    <img class="player" src="images/banner-player.png" alt="">
+                </div>
+                <div class="pb-40">
+                    <h1 style="font-family:Berkshire Swash;" class="text-6xl my-5"><span class="text-orange-500 font-bold font-sans ">Choose Your Unique
+                            Five.</span></h1>
+                    <p class="font-light text-white my-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                        nostrud amet.</p>
+                </div>
+                <div>
+                    <img class="bg-[url('images/banner-football.png')]" src="images/soccer-goal-top-png-8 4.png" alt="">
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto">
+                <div class="flex py-28 justify-around">
+                    <div id="player-container" class="grid grid-cols-3 gap-x-8  gap-y-6 w-4/6">
+
+
+                        <!-- <div class="players border-inherit">
+                            <div class="player">
+                                <div class="player-banner ">
+                                    <img class="w-full" src="images/player-1.png" alt="">
+                                </div>
+                                <div class="player-info p-6 text-center">
+                                    <h2  class="text-white text-2xl my-3 ">Lionel Messi</h2>
+                                    <button id="btn-select" class="icon-one text-white bg-blue-500 w-full py-2">Select</button>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="players border-inherit">
+                            <div class="player">
+                                <div class="player-banner ">
+                                    <img class="w-full" src="images/player-2.png" alt="">
+                                </div>
+                                <div class="player-info p-6 text-center">
+                                    <h2 class="text-white text-2xl my-3 ">Neymar Jr</h2>
+                                    <button class="icon-one text-white bg-blue-500 w-full py-2">Select</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="players border-inherit">
+                            <div class="player">
+                                <div class="player-banner ">
+                                    <img class="w-full" src="images/player-3.png" alt="">
+                                </div>
+                                <div class="player-info p-6 text-center">
+                                    <h2 class="text-white text-2xl my-3 ">Kylian Mbappé</h2>
+                                    <button class="icon-one text-white bg-blue-500 w-full py-2">Select</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="players border-inherit">
+                            <div class="player">
+                                <div class="player-banner ">
+                                    <img class="w-full" src="images/player-4.png" alt="">
+                                </div>
+                                <div class="player-info p-6 text-center">
+                                    <h2 class="text-white text-2xl my-3 ">Vítor Machado</h2>
+                                    <button class="icon-one text-white bg-blue-500 w-full py-2">Select</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="players border-inherit">
+                            <div class="player">
+                                <div class="player-banner ">
+                                    <img class="w-full" src="images/player-5.png" alt="">
+                                </div>
+                                <div class="player-info p-6 text-center">
+                                    <h2 class="text-white text-2xl my-3 ">Sergio Ramos</h2>
+                                    <button class="icon-one text-white bg-blue-500 w-full py-2">Select</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="players border-inherit">
+                            <div class="player">
+                                <div class="player-banner ">
+                                    <img class="w-full" src="images/player-6.png" alt="">
+                                </div>
+                                <div class="player-info p-6 text-center">
+                                    <h2 class="text-white text-2xl my-3 ">Renato Sanches</h2>
+                                    <button class="icon-one text-white bg-blue-500 w-full py-2">Select</button>
+                                </div>
+
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="w-1/6">
+                        <div style="background: #0D0D0D;">
+                            <h1 class="text-white text-center text-2xl font-bold pt-12">Selective-5</h1>
+                            <ol class="text-white px-12 py-8">
+                                <li class="pt-6">1. Lionel Messi</li>
+                                <li class="pt-6">2. Akram Sakib</li>
+                                <li class="pt-6">3. Kylin Mbappe</li>
+                                <li class="pt-6">4. Sadia</li>
+                                <li class="pt-6">5. Sergio Ramos</li>
+
+                            </ol>
+                        </div>
+                        <div>
+                            <div  class="mt-8" style="background: #0D0D0D; ">
+                                <h1 class="text-white text-center text-2xl font-bold pt-12 my-12 ">Budget</h1>
+
+                                <div class="p-3">
+                                    <div class="w-full flex items-center ">
+                                        <div class="flex items-center mb-4">
+                                            <span  class="text-gray-400 py-[6px] text-lg pr-2 h-full w-1/2 ">Per Player</span>
+                                            <input id="per-player-filed" class="w-1/2 border-2 bg-black py-[6px]  text-white h-full border-white w-full"type="text">
+                                        </div>
+                                    </div>
+
+                                    <button id="btn-calculate" class="text-white bg-blue-500 w-full my-4 py-2">Calculate</button>
+
+                                    <div class="text-white">
+                                        <div class="flex justify-between">
+                                            <div class="">
+                                                <h5 class="text-gray-400">Player Expenses</h5>
+                                            </div>
+                                            <div class="">
+                                                <h5>$<span id="player-expenses-total">0</span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="flex items-center mb-4">
+                                        <span class="text-gray-400 py-[6px] text-lg pr-2 h-full w-1/2 ">Manager</span>
+                                        <input id="manager-field" class="w-1/2 border-2 bg-black py-[6px]  text-white h-full border-white w-full"type="text">
+                                    </div>
+
+                                   
+                                    <div class="flex items-center ">
+                                        <span class="text-gray-400 py-[6px] text-lg pr-2 h-full w-1/2">Coach</span>
+                                        <input id="coach-field" class="w-1/2 border-2 bg-black py-[6px]  text-white h-full border-white w-full"type="text">
+                                    </div>
+
+                                    <button id="btn-calculate-total" class="text-white bg-blue-500 my-4 w-full py-2">Calculate
+                                        Total
+                                    </button>
+
+                                    <div class="text-white">
+                                        <div class="flex justify-between">
+                                            <div class="text-gray-400">
+                                                <h5>Total </h5>
+                                            </div>
+                                            <div class="">
+                                                <h5>$ <span id="total">0</span></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+     <!-- footer section  -->
+     <footer>
+        <p class="text-white text-center py-8 border-t border-white">Copyright &copy; 2022 All Rights Reserved.</p>
+     </footer>
+     <script src="js/budget.js"></script>
+</body>
+
+</html>
